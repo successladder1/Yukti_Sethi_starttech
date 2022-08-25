@@ -63,15 +63,16 @@ select * from deliveries;
 
 
 --Q-5. Select the top 20 rows of the deliveries table.
-SELECT TOP 20 *
-FROM
-deliveries;
+SELECT *
+FROM deliveries
+FETCH FIRST 20 ROWS ONLY;
 
 
 
 --Q-6. Select the top 20 rows of the matches table.
-SELECT TOP 20 *
-FROM matches;
+SELECT *
+FROM matches
+FETCH FIRST 20 ROWS ONLY;;
 
 
 
